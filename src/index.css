@@ -1,0 +1,46 @@
+.redContainer .resultArea{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,0);
+}
+
+
+.redContainer .resultArea .info img{
+    border-radius: 15px;
+}
+.redContainer .resultArea .info ul{
+    list-style: none;
+}
+
+.redContainer .resultArea .action , .finalDiv{
+    display: flex;
+    justify-content: start;
+    gap: 2.5px;
+
+}
+.redContainer .resultArea a.getLink,.redContainer .resultArea select{
+    font-family: monospace; 
+    width: 45%;
+    height:  40px;
+}
+a.getLink{
+    max-width: 45%;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #111000;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(5, 161, 57);
+    color: #fff;
+    font-size: 16px;
+    
+
+}
+
+
+.dn{
+    display: none !important;
+}

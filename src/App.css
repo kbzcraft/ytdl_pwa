@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.redContainer{
+  position: relative;
+  background-color: red;
+  height: 40vh;
+}
+.redContainer>div.title{
+  position: absolute;
+  left: 50%;
+  
+  width: 100%;
+  transform: translateX(-50%);
+}
+.redContainer>div.title>div{
+  position: relative;
+  width: 100%;
+  
+}
+.redContainer>div.title>div>h1{
+  text-align: center;
+  /* padding-top: 9.5px; */
+  font-family: 'Tektur', sans-serif;
+  font-size: 55px;
+  letter-spacing: 5.5px;
+  font-weight: bold;
+  color: #2e0101;
+  /* position: absolute; */
+}
+.redContainer>div.title>div>p{
+  /* text-align: center; */
+  font-family: 'Ubuntu', sans-serif; 
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translateX(-50%);
+}
+
+
+.redContainer>div.inputArea{
+  width: 100%;
+  position:absolute;
+  left: 50%;
+  top: 87%;
+  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+.redContainer>div.inputArea>*{
+  height: 55px;
+}
+.redContainer>div.inputArea>input{
+  width: 75%;
+  max-width: 390px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* outline: 1px solid black; */
+  box-shadow: 2px 2px 5px rgba(75, 77, 78, 0.199);
+}
+
+.redContainer>div.inputArea>button{
+  width: 20%;
+  min-width: fit-content;
+  max-width: 115px;
+  background-color: red;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(75, 77, 78, 0.199);
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
