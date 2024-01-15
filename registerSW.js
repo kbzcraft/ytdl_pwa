@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ytdl_pwa/sw.js', { scope: '/ytdl_pwa/' })})}
