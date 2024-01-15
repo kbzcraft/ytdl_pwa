@@ -6,8 +6,8 @@
     "background_color": "#fff",
     "display": "standalone",
     "orientation": "portrait",
-    "scope": ".",
-    "start_url": "./ytdl_pwa",
+    "scope": "https://kbzcraft.github.io/ytdl_pwa/",
+    "start_url": "https://kbzcraft.github.io/ytdl_pwa/",
     "icons": [
       {
         "src": "images/icons/icon-72x72.png",
